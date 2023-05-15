@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery with Search</title>
+
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-box">
+        <input type="text" placeholder="Search..." />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="images">
+        <div class="image-box" data-name="watch">
+          <img src="images/img1.jpg" alt="" />
+          <h6>Watch</h6>
+        </div>
+        <div class="image-box" data-name="headphones">
+          <img src="images/img2.jpg" alt="" />
+          <h6>Headphones</h6>
+        </div>
+        <div class="image-box" data-name="camera">
+          <img src="images/img3.jpg" alt="" />
+          <h6>Camera</h6>
+        </div>
+        <div class="image-box" data-name="car">
+          <img src="images/img4.jpg" alt="" />
+          <h6>Car</h6>
+        </div>
+        <div class="image-box" data-name="mobile">
+          <img src="images/img5.jpg" alt="" />
+          <h6>Mobile</h6>
+        </div>
+        <div class="image-box" data-name="watch">
+          <img src="images/img6.jpg" alt="" />
+          <h6>Watch</h6>
+        </div>
+        <div class="image-box" data-name="car">
+          <img src="images/img7.jpg" alt="" />
+          <h6>Car</h6>
+        </div>
+        <div class="image-box" data-name="mobile">
+          <img src="images/img8.jpg" alt="" />
+          <h6>Mobile</h6>
+        </div>
+        <div class="image-box" data-name="camera">
+          <img src="images/img9.jpg" alt="" />
+          <h6>Camera</h6>
+        </div>
+        <div class="image-box" data-name="mobile">
+          <img src="images/img10.jpg" alt="" />
+          <h6>Mobile</h6>
+        </div>
+      </div>
+
+      <div class="lightbox">
+        <div class="wrapper">
+          <header>
+            <div class="details">
+              <i class="fas fa-camera"></i>
+              <span>Preview Image</span>
+            </div>
+            <div class="buttons">
+              <i class="closeBtn fas fa-times"></i>
+            </div>
+          </header>
+
+          <div class="preview-img">
+            <div class="img">
+              <img src="images/img1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
